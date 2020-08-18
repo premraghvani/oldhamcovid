@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    #MSOA {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+        
+    #MSOA td, #MSOA th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+        
+    #MSOA tr:nth-child(even){background-color: #f2f2f2;}
+        
+    #MSOA tr:hover {background-color: #ddd;}
+        
+    #MSOA th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #d4a113;
+        color: white;
+    }
+</style>
+<title>Oldham COVID - Areas</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta property="og:title" content="Oldham COVID - Areas"/>
+<meta property="og:url" content="https://oldhamcovid.tk/MSOA/" />
+<meta property="og:description" content="This is the page about the cases in each individual areas or MSOAs of Oldham for COVID-19."/>
+
+</head>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://oldhamcovid.tk" class="w3-bar-item w3-button w3-padding-large">Overview</a>
+    <a href="https://oldhamcovid.tk/MSOA/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Areas</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://oldhamcovid.tk/about/" class="w3-bar-item w3-button">About</a>
+        <a href="https://oldhamcovid.tk/copyright/" class="w3-bar-item w3-button">Copyright</a>
+        <a href="https://oldhamcovid.tk/contact/" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="https://oldhamcovid.tk" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Overview</a>
+  <a href="https://oldhamcovid.tk/MSOA/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Areas</a>
+  <a href="https://oldhamcovid.tk/about/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="https://oldhamcovid.tk/copyright/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Copyright</a>
+  <a href="https://oldhamcovid.tk/contact/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+</div>
+<h4>⠀</h4>
+<h3>Here is data for each MSOA</h3>
+<p>Data can take some time to load as it re-checks the data the government has, figures are updated weekly by the government. Death count isn't published</p>
+<table id="MSOA">
+    <tr>
+      <th>MSOA Name</th>
+      <th>Latest Increase (Cases)</th>
+      <th>Total Cases</th>
+      <th>MSOA Code</th>
+    </tr>
+    <tr>
+      <td>Alexandra Park</td>
+      <td id="19I"></td>
+      <td id="19T"></td>
+      <td>E02001119</td>
+    </tr>
+    <tr>
+        <td>Alt</td>
+        <td id="23I"></td>
+        <td id="23T"></td>
+        <td>E02001123</td>
+    </tr>
+    <tr>
+        <td>Busk</td>
+        <td id="13I"></td>
+        <td id="13T"></td>
+        <td>E02001113</td>
+    </tr>
+    <tr>
+        <td>Chadderton Central</td>
+        <td id="14I"></td>
+        <td id="14T"></td>
+        <td>E02001114</td>
+    </tr>
+    <tr>
+        <td>Chadderton North</td>
+        <td id="07I"></td>
+        <td id="07T"></td>
+        <td>E02001107</td>
+    </tr>
+    <tr>
+        <td>Chadderton South East</td>
+        <td id="24I"></td>
+        <td id="24T"></td>
+        <td>E02001124</td>
+    </tr>
+    <tr>
+        <td>Chadderton South West</td>
+        <td id="25I"></td>
+        <td id="25T"></td>
+        <td>E02001125</td>
+    </tr>
+    <tr>
+        <td>Clough & Shaw Side</td>
+        <td id="00I"></td>
+        <td id="00T"></td>
+        <td>E02001100</td>
+    </tr>
+    <tr>
+        <td>Derker</td>
+        <td id="08I"></td>
+        <td id="08T"></td>
+        <td>E02001108</td>
+    </tr>
+    <tr>
+        <td>Diggle, Delph & Denshaw</td>
+        <td id="03I"></td>
+        <td id="03T"></td>
+        <td>E02001103</td>
+    </tr>
+    <tr>
+        <td>Failsworth East</td>
+        <td id="28I"></td>
+        <td id="28T"></td>
+        <td>E02001128</td>
+    </tr>
+    <tr>
+        <td>Failsworth South</td>
+        <td id="31I"></td>
+        <td id="31T"></td>
+        <td>E02001131</td>
+    </tr>
+    <tr>
+        <td>Failsworth West</td>
+        <td id="29I"></td>
+        <td id="29T"></td>
+        <td>E02001129</td>
+    </tr>
+    <tr>
+        <td>Greenfield & Uppermill</td>
+        <td id="17I"></td>
+        <td id="17T"></td>
+        <td>E02001117</td>
+    </tr>
+    <tr>
+        <td>Hathershaw</td>
+        <td id="26I"></td>
+        <td id="26T"></td>
+        <td>E02001126</td>
+    </tr>
+    <tr>
+        <td>Holt Lane End & Bardsley</td>
+        <td id="30I"></td>
+        <td id="30T"></td>
+        <td>E02001130</td>
+    </tr>
+    <tr>
+        <td>Lees & Hey</td>
+        <td id="15I"></td>
+        <td id="15T"></td>
+        <td>E02001125</td>
+    </tr>
+    <tr>
+        <td>Lime Side & Garden Suburb</td>
+        <td id="27I"></td>
+        <td id="27T"></td>
+        <td>E02001127</td>
+    </tr>
+    <tr>
+        <td>Middleton Junction</td>
+        <td id="12I"></td>
+        <td id="12T"></td>
+        <td>E02001112</td>
+    </tr>
+    <tr>
+        <td>Moorside & Sholver</td>
+        <td id="04I"></td>
+        <td id="04T"></td>
+        <td>E02001104</td>
+    </tr>
+    <tr>
+        <td>New Delph, Dobcross & Austerlands</td>
+        <td id="10I"></td>
+        <td id="10T"></td>
+        <td>E02001110</td>
+    </tr>
+    <tr>
+        <td>Oldham Town North</td>
+        <td id="11I"></td>
+        <td id="11T"></td>
+        <td>E02001111</td>
+    </tr>
+    <tr>
+        <td>Oldham Town South</td>
+        <td id="21I"></td>
+        <td id="21T"></td>
+        <td>E02001121</td>
+    </tr>
+    <tr>
+        <td>Royton East & Cowlishaw</td>
+        <td id="02I"></td>
+        <td id="02T"></td>
+        <td>E02001102</td>
+    </tr>
+    <tr>
+        <td>Royton North</td>
+        <td id="01I"></td>
+        <td id="01T"></td>
+        <td>E02001101</td>
+    </tr>
+    <tr>
+        <td>Royton South East</td>
+        <td id="06I"></td>
+        <td id="06T"></td>
+        <td>E02001106</td>
+    </tr>
+    <tr>
+        <td>Royton South West</td>
+        <td id="05I"></td>
+        <td id="05T"></td>
+        <td>E02001105</td>
+    </tr>
+    <tr>
+        <td>Salem</td>
+        <td id="16I"></td>
+        <td id="16T"></td>
+        <td>E02001116</td>
+    </tr>
+    <tr>
+        <td>Shaw & Crompton</td>
+        <td id="98I"></td>
+        <td id="98T"></td>
+        <td>E02001098</td>
+    </tr>
+    <tr>
+        <td>Springhead & Grasscroft</td>
+        <td id="18I"></td>
+        <td id="18T"></td>
+        <td>E02001118</td>
+    </tr>
+    <tr>
+        <td>Waterhead</td>
+        <td id="09I"></td>
+        <td id="09T"></td>
+        <td>E02001109</td>
+    </tr>
+    <tr>
+        <td>Werneth</td>
+        <td id="60I"></td>
+        <td id="60T"></td>
+        <td>E02006860</td>
+    </tr>
+    <tr>
+        <td>Wood End</td>
+        <td id="99I"></td>
+        <td id="99T"></td>
+        <td>E02001099</td>
+    </tr>
+  </table> 
+
+</body>
+</html>
+<script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script>  
+<script src="script.js"></script> 
